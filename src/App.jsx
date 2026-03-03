@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Bienvenido from './components/Bienvenido'
 import TeoriaComponente from './components/TeoriaComponente';
+import Contador from './components/Contador';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit sequi temporibus quia provident aperiam porro officiis ducimus architecto, unde, doloremque numquam nihil repellat adipisci et blanditiis accusantium earum consequatur, atque fuga voluptas saepe quibusdam id dolorem reiciendis! Nobis tenetur sapiente, accusamus natus ut sed molestias ex illum quidem hic itaque magni. Quos eligendi necessitatibus quam doloribus aliquam, fugit corrupti fuga!</p>
       <Bienvenido/>
       <TeoriaComponente comision="Web 21" modulo={modulo} anioActual={anio}/>
+      <Contador/>
     </>
   )
 }
